@@ -9,7 +9,7 @@ require 'scraperwiki'
 # OpenURI::Cache.cache_path = '.cache'
 require 'scraped_page_archive/open-uri'
 
-# require_rel 'lib'
+require_rel 'lib'
 
 def scrape(h)
   url, klass = h.to_a.first
